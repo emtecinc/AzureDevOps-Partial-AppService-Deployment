@@ -19,3 +19,8 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+Code credits : 
+1. https://github.com/Geertvdc/VSTS-Build-AzureWebAppVFS
+2. https://www.andrewhoefling.com/Blog/Post/dev-ops-vsts-custom-build-task-extension
+3. https://mobilefirstcloudfirst.net/2017/02/created-open-source-vsts-build-release-task-azure-web-app-virtual-file-system/

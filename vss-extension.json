@@ -1,7 +1,7 @@
 {
   "manifestVersion": 1,
   "id": "manageAzureWebAppDirectories",
-  "name": "Azure Web App - Partial package deployment for Micro Frontend architecture",
+  "name": "Azure App Service - Partial package deployment to support Micro Frontend architecture",
   "version": "1.0.0",
   "publisher": "EmtecInc",
   "public": true,
@@ -11,8 +11,8 @@
     }
   ],
   "icons": {
-        "default": "Icons/icon.png"
-    },
+    "default": "Icons/icon.png"
+  },
   "description": "Upload the partial or full Web App deployment package on Azure Web App. This extension provides the ability to take the backup of existing wwwroot directory if Azure storage settings are configured.",
   "categories": [
     "Azure Pipelines"
@@ -25,11 +25,11 @@
     "Virtual File System",
     "Upload",
     "Update",
-    "Micro Frontend", 
+    "Micro Frontend",
     "WebApp",
     "App Service",
     "POST",
-	"PUT"
+    "PUT"
   ],
   "files": [
     {
