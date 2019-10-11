@@ -1,9 +1,12 @@
 # Azure App Service- Partial package deployment to support Micro Frontend architecture 
 This task is used to upload the partial or full Web App deployment package on Azure Web App through Kudu Rest API.
 ## Introduction
-This task is created because, in the Micro Frontend end release and development, we need the ability to upload a partial set of directories (depending on the module being released) from the Web Application's directory on Azure Web App.   
+The default Azure Web App Deploy task provides the ability to deploy and replace the entire package from the application's directory on the Azure Web App. But in the Micro Frontend architecture applications, different teams/developers might be working on different independent Micro Frontend apps and deploying the entire application requires a complete regression testing cycle.
 
-The default Azure Web App Deploy task provides the ability to deploy and replace the entire package from the application's directory on the Azure Web App. But in the Micro Frontend architecture applications, different developers can be working on different independent Micro Frontend apps and suppose a development team wants to push only one Micro Frontend apps changes on the live environment, this partial deployment ability is not available in the default Azure deployment task. Using this task users can upload the partial or full Web App deployment package. 
+To avoid this, we need a way to deploy individual applications to App Service so that there is no impact on other applications.
+
+This task allows users to specify one more apps that need to be deployed to the App Services.
+
 
 ![Micro Frontend deployment](https://raw.githubusercontent.com/emtecinc/AzureDevOps-Partial-AppService-Deployment/master/azureAppServiceFileDeploy/Images/MicroFrontendArchitecture.png)
 
