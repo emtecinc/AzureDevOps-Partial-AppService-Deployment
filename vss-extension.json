@@ -1,0 +1,59 @@
+{
+  "manifestVersion": 1,
+  "id": "manageAzureWebAppDirectories",
+  "name": "Azure Web App - Partial package deployment for Micro Frontend architecture",
+  "version": "1.0.0",
+  "publisher": "EmtecInc",
+  "public": true,
+  "targets": [
+    {
+      "id": "Microsoft.VisualStudio.Services"
+    }
+  ],
+  "icons": {
+        "default": "Icons/icon.png"
+    },
+  "description": "Upload the partial or full Web App deployment package on Azure Web App. This extension provides the ability to take the backup of existing wwwroot directory if Azure storage settings are configured.",
+  "categories": [
+    "Azure Pipelines"
+  ],
+  "tags": [
+    "Kudu",
+    "Azure",
+    "Partial",
+    "File",
+    "Virtual File System",
+    "Upload",
+    "Update",
+    "Micro Frontend", 
+    "WebApp",
+    "App Service",
+    "POST",
+	"PUT"
+  ],
+  "files": [
+    {
+      "path": "azureAppServiceFileDeploy"
+    }
+  ],
+  "content": {
+    "details": {
+      "path": "README.md"
+    },
+    "license": {
+      "path": "LICENSE.txt"
+    }
+  },
+  "contributions": [
+    {
+      "id": "azureAppServiceFileDeploy",
+      "type": "ms.vss-distributed-task.task",
+      "targets": [
+        "ms.vss-distributed-task.tasks"
+      ],
+      "properties": {
+        "name": "azureAppServiceFileDeploy"
+      }
+    }
+  ]
+}
