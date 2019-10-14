@@ -2,7 +2,7 @@
   "manifestVersion": 1,
   "id": "manageAzureWebAppDirectories",
   "name": "Azure App Service - Partial package deployment to support Micro Frontend architecture",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publisher": "EmtecInc",
   "public": true,
   "targets": [
@@ -31,6 +31,24 @@
     "POST",
     "PUT"
   ],
+  "links": {
+    "getstarted": {
+      "uri": "https://github.com/emtecinc/AzureDevOps-Partial-AppService-Deployment/wiki"
+    },
+    "support": {
+      "uri": "https://github.com/emtecinc/AzureDevOps-Partial-AppService-Deployment/issues"
+    },
+    "repository": {
+      "uri": "https://github.com/emtecinc/AzureDevOps-Partial-AppService-Deployment"
+    },
+    "issues": {
+      "uri": "https://github.com/emtecinc/AzureDevOps-Partial-AppService-Deployment/issues"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "uri": "https://github.com/emtecinc/AzureDevOps-Partial-AppService-Deployment"
+  },
   "files": [
     {
       "path": "azureAppServiceFileDeploy"
